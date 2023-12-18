@@ -1,0 +1,103 @@
+                .main-container {
+                    margin-top: 12vh;
+                    color: rgb(159, 155, 151);
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-family: 'Quicksand';
+                }
+                
+                .player-choose {
+                    display: flex;
+                    height: 30vh;
+                    width: 30vw;
+                    border-radius: 2px;
+                    background-color: #0f0f0f;
+                    box-shadow: 2px 2px 4px rgba(254, 254, 254, 0.445);
+                    border-radius: 2%;
+                    flex-direction: column;
+                    margin-left: 30vw;
+                    margin-top: 5vw;
+                    padding: 05vw;
+                }
+                
+                .vsPlayer-2,
+                .vsComp {
+                    margin-top: 0.1vh;
+                    cursor: pointer;
+                }
+                
+                .icons {
+                    color: rgb(255, 255, 255);
+                    font-size: 3rem;
+                    border: 4px solid rgb(255, 255, 255);
+                    border-radius: 40%;
+                    margin-right: 1vw;
+                }
+                
+                .PlayGoat p,
+                .PlayTiger p,
+                .vsPlayer-2 p,
+                .vsComp p {
+                    font-size: 1.8rem;
+                }
+                
+                .vsPlayer-2 p:hover,
+                .vsComp p :hover,
+                .icons:hover {
+                    color: rgb(246, 127, 7);
+                    /* border: 4px solid rgb(0, 255, 234); */
+                }
+                
+                .vsComp p:hover {
+                    color: rgb(246, 127, 7);
+                }
+                
+                .icons:hover {
+                    color: rgb(246, 127, 7);
+                    border: 4px solid rgb(246, 127, 7);
+                }
+                
+                .PlayGoat p :hover,
+                .PlayTiger p :hover {
+                    color: rgb(246, 127, 7);
+                    /* border: 4px solid rgb(0, 255, 234); */
+                }
+                
+                .choose-TG {
+                    font-size: 20px;
+                    padding-left: 29px;
+                }
+                
+                .NewGame {
+                    border-radius: 5px;
+                    border: none;
+                    background-color: rgb(255, 255, 255);
+                    height: 3vh;
+                    width: 10vw;
+                    align-items: center;
+                    margin-left: 10vw;
+                    color: rgb(1, 1, 1);
+                    font-size: 1.6rem;
+                    font-weight: 01.5rem;
+                    transition: all 0.3s ease;
+                }
+                
+                .NewGame:hover {
+                    transform: scale(1.1);
+                    background: rgb(246, 127, 7);
+                }
+                
+                p {
+                    margin-top: 20px;
+                    font-size: 20px;
+                    color: rgb(255, 255, 255);
+                    margin-left: 10vw;
+                }
+                /* .icons.GiTigerHead {
+                    font-size: 60px;
+                } */
+                /* a {
+                    margin-left: 10vw;
+                    text-align: center;
+                    font-size: 1.6rem;
+                } */

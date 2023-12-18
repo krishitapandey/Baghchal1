@@ -1,0 +1,12 @@
+body {
+    background-color: #1a1a1b;
+    font-family: 'Quicksand';
+    margin: 0;
+}
+
+.Main {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+}

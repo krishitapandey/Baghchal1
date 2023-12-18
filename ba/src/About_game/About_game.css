@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box_right2 {
+    height: 30vh;
+    width: 35vw;
+    margin-top: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.box_right2 img {
+    height: 70vh;
+    width: 35vw;
+    margin-top: 4%;
+    border-radius: 2vh;
+    padding-right: 0px;
+}
+
+.box_left2 {
+    height: 70vh;
+    width: 60vw;
+    margin-top: 1.2vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0;
+    padding-right: 0px;
+}
+
+.left_top2 {
+    color: wheat;
+    margin-left: 0;
+    font-size: 1vw;
+    height: 50vh;
+    margin-top: 8vh;
+    width: 40vw;
+}
+
+.left_top2 p {
+    color: wheat;
+    font-size: 1.5vw;
+    padding-right: 4%;
+    color: wheat;
+    margin-left: 0;
+}
+
+.left_top2 h1 {
+    color: rgb(246, 127, 7);
+    font-size: 02.5vw;
+}
+
+.box_left2 .result p {
+    text-shadow: (255, 255, 255, 0.2);
+    color: rgb(220, 204, 204);
+    font-size: 1.5vw;
+    margin-left: .1vw;
+    margin-right: 8%;
+    font-style: unset;
+}
